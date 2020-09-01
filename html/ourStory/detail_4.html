@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title></title>
+	<script src="../../util/flexible/flexible_css.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../util/flexible/flexible.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="../../css/pubilc.css">
+  <link rel="stylesheet" href="../../util/swiper/css/swiper.css">
+  <link rel="stylesheet" href="../../css/ourStory/detail_4.css">
+</head>
+
+<body>
+	<header class="header">
+		<div>
+			<a href="" class="logo">
+				<img src="../../image/header/logo.png" alt="">
+			</a>
+			<a href="" class="shoppingCar">
+				<img src="../../image/header/shoppingCar.png" alt="">
+			</a>
+			<a href="javascript:;" class="menu">
+				<img src="../../image/header/menu.png" alt="">
+				<img src="../../image/header/return.png" style="display: none;" alt="">
+			</a>
+		</div>
+		<div style="display: none;" class="menuContent">
+			<a href="../diamond/home.html">Diamond</a>
+			<a href="">ENGAGEMENT RINGS</a>
+			<a href="../jewellery/home.html">JEWELLERY</a>
+			<span class="line"></span>
+			<a href="../ourStory/home.html">OUR STORY</a>
+			<a href="../contactUs/home.html">CONTACT US</a>
+			<a href="../myAccount/home.html">MY ACCOUNT</a>
+			<div id="">
+				<img src="../../image/footer/ins.png" alt="">
+				<img src="../../image/footer/facebook.png" alt="">
+				<img src="../../image/header/heart.png" alt="">
+			</div>
+		</div>
+	</header>
+  <div class="wrapper">
+    <div class="content">
+			<!-- banner图 -->
+			<div class="banner">
+				<p>OUR STORY</p>
+			</div>
+			<!--  -->
+			<div class="menu">
+				<div>INSPIRATION</div>
+				<div class="active">LUMIA</div>
+			</div>
+			<div class="select">
+				<label>TOPICS:</label>
+				<select>
+					<option value="1">Brand story</option>
+					<option value="2">WORLD DIAMOND</option>
+					<option value="3">CHINESE IN ANTWERP</option>
+					<option value="4">DIAMOND RELATED</option>
+					<option value="5">LUMIA DIAMOND</option>
+				</select>
+			</div>
+			<!--  -->
+			<div class="detali">
+				<div class="right_content">
+					<p class="text_title">SERVICE STANDARDS</p>
+					<p class="text_normal">The following are the specific service standards of Limei jewelry after-sales service:</p>
+					<img src="../../image/ourStory/detail_5.png" >
+					<p class="text_normal_dian">50 Euros for each set of loose diamonds, without gold weight for diamond holder, gold weight according to the selected style, real scale and actual collection</p>
+					<p class="text_normal_dian">The polishing service is free for life</p>
+					<p class="text_normal_dian">The polishing service is free for life</p>
+					<p class="text_normal_dian">The size modification service is free for the first time after purchase</p>
+					<p class="text_normal_dian">The repair service depends on the price of the jewelry after the assessment of the damage</p>
+					<p class="text_normal_dian">The expert of the remake / matching service decides the price after evaluation</p>
+					<p class="text_normal_dian">50 Euros per lettering service</p>
+					<p class="text_normal_dian">The service fee for the remodeling service is priced according to the model, starting from 100 euros, excluding gold. The weight of gold is calculated based on the existing drill holder, after deducting 10% of the loss, the gold weight of the newly selected drill holder style is calculated and the difference can be made up</p>
+				</div>
+			</div>
+    </div>
+    
+  </div>
+	<footer class="footer">
+		<img src="../../image/header/logo.png" alt="">
+		<p>Hoveniersstraat 35, office 313-315, 2019 Antwerpen</br> — e. info@lumiagem.com — t. +32 689 73 94</p>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic1.png" alt="">
+			<b>Information</b>
+			<div>
+				<a href="">About us</a>
+				<a href="">Contact us</a>
+				<a href="">Terms & conditions</a>
+				<a href="">Returns & exchanges</a>
+				<a href="">Shipping & delivery</a>
+				<a href="">Privacy policy</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic2.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Store location</a>
+				<a href="">My account</a>
+				<a href="">Orders tracking</a>
+				<a href="">Size guide</a>
+				<a href="">FAQs</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic3.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Account</a>
+				<a href="">Free shipping</a>
+				<a href="">Support 24/7</a>
+				<a href="">30 days product returns</a>
+				<a href="">100% payment secure</a>
+				<a href="">Supported all cards</a>
+			</div>
+		</div>
+		<div class="share">
+		  <img src="../../image/footer/ins.png" alt="">
+		  <img src="../../image/footer/facebook.png" alt="">
+		</div>
+	</footer>
+</body>
+<script src="../../util/swiper/js/swiper.min.js"></script>
+<script src="../../util/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function () {
+		$('.menu').on('click','div',function () {
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+		$('.select select').change(function() {
+			window.location.href = 'detail_'+$(this).val() + '.html'
+		})
+	})
+</script>
+
+</html>

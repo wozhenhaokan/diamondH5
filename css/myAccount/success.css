@@ -1,0 +1,25 @@
+.content{
+}
+.content .banner{
+	text-align: center;
+	margin-top: 1.866666rem;
+}
+.content .banner img{
+	width: 0.826666rem;
+	height: 0.906666rem;
+}
+.content p:nth-of-type(1){
+	margin-top: 0.666666rem;
+	margin-bottom: 0.8rem;
+	font-family: Operetta 12;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	color: #957732;
+}
+.content p:nth-of-type(2){
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	color: #494949;
+	text-align: center;
+}

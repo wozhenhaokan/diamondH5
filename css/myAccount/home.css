@@ -1,0 +1,68 @@
+
+.content{
+	padding-top:1.386666rem ;
+}
+/*  */
+.content .signin {
+}
+.content .signin .title{
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	color: #957732;
+	margin-bottom: 1.333333rem;
+}
+.content .signin .title img{
+	width: 0.693333rem;
+	height: 0.693333rem;
+	display: inline-block;
+	margin-right: 0.4rem;
+}
+.content .signin input{
+	width: 100%;
+	margin-bottom: 0.266666rem;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	letter-spacing: 0.15em;
+	color: #494949;
+}
+.content .signin>p a{
+	display: inline-block;
+	margin-top: 0.533333rem;
+	font-size: 0.293333rem;
+	line-height: 164.5%;
+	/* or 18px */
+	text-decoration-line: underline;
+	color: #957732;
+}
+.content .signin>div span{
+	cursor: pointer;
+}
+.content .signin>div span:first-child{
+	margin-top: 1.706666rem;
+	display: inline-block;
+	width: 3.28rem;
+	height: 1.253333rem;
+	background: #957732;
+	border-radius: 0.266666rem;
+	font-size: 0.293333rem;
+	line-height: 1.253333rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #FDFAF5;
+	margin-right: 0.533333rem;
+}
+.content .signin>div span:last-child{
+	font-size: 0.293333rem;
+	line-height: 164.5%;
+	text-decoration-line: underline;
+	
+	color: #B5B5B5;
+}
+/*  */
+.content .banner img{
+	margin-top: 1.786666rem;
+	width: 8.053333rem;
+	height: 8.053333rem;
+}

@@ -1,0 +1,232 @@
+.content {
+	padding-top: 1.493333rem;
+}
+
+.content .title {
+	width: 7.946666rem;
+	font-family: Operetta 12;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	color: #957732;
+}
+
+/*  */
+/*  */
+.content .menu {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1.44rem;
+}
+
+.content .menu>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+	/* padding: 0 70px; */
+	height: 2.453333rem;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.content .menu>div:first-child{
+	border-bottom: 0.006666rem solid #8B8B8B;
+	border-right: 0.006666rem solid #8B8B8B;
+}
+.content .menu>div:nth-child(2){
+	border-bottom: 0.006666rem solid #8B8B8B;
+}
+.content .menu>div:nth-child(3){
+	border-right: 0.006666rem solid #8B8B8B;
+}
+
+
+.content .menu .active {
+	/* background: #C5C4E0; */
+	/* border: none; */
+}
+
+.content .menu>div img {
+	width: 1.013333rem;
+	height: 0.72rem;
+	object-fit: scale-down;
+}
+
+.content .menu>div p {
+	text-align: center;
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	width: 2.933333rem;
+	color: #494949;
+
+}
+
+/*  */
+.content .sologn {
+	margin: 2.16rem auto 1.066666rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #957732
+}
+
+/*  */
+.content .input_content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content .input_content input {
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	letter-spacing: 0.15em;
+	width: 475px;
+	color: #494949;
+	margin-top: 0.586666rem;
+}
+
+.content .input_content textarea {
+	padding: 0.773333rem 0.88rem;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 1.333333rem;
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	color: #9A9797;
+	height: 8.213333rem;
+
+}
+
+/*  */
+.content .send {
+	width: 3.28rem;
+	height: 1.253333rem;
+	text-align: center;
+	background: #957732;
+	border-radius: 0.266666rem;
+	font-size: 0.293333rem;
+	line-height: 1.253333rem;
+	color: #FDFAF5;
+	margin: 1.013333rem auto 2.24rem;
+}
+
+/*  */
+.map_content .map {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #C5C4E0;
+}
+
+.map_content .map img {
+	width: 100%;
+	height: auto;
+}
+
+.map_content .map_desc {
+	width: 100%;
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	color: #494949;
+	padding:1.44rem 0.88rem;
+	box-sizing: border-box;
+	background: rgba(149, 119, 50, 0.1)
+}
+
+.map_content .map_desc p:first-child {
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	/* or 48px */
+	font-family: Operetta 12;
+	letter-spacing: 0.03em;
+	color: #957732;
+}
+
+.map_content .map_desc p:nth-child(2) span {
+
+	color: #957732;
+}
+
+.map_content .map_desc p:nth-child(2) {
+	margin-top: 1.6rem;
+}
+
+.map_content .map_desc p:nth-child(3),
+.map_content .map_desc p:nth-child(4),
+.map_content .map_desc p:nth-child(5) {
+	padding-left: 1.653333rem;
+	position: relative;
+}
+
+.map_content .map_desc p:nth-child(3){
+	margin-top: 0.986666rem;
+}
+.map_content .map_desc p:nth-child(4){
+	margin-top: 1.2rem;
+}
+.map_content .map_desc p:nth-child(5){
+	margin-top: 1.493333rem;
+}
+.map_content .map_desc p:nth-child(3):before {
+	display: inline-block;
+	content: '1';
+	width: 0.72rem;
+	height: 0.72rem;
+	background: #957732;
+	border-radius: 100%;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.72rem;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.map_content .map_desc p:nth-child(4):before {
+	display: inline-block;
+	content: '2';
+	width: 0.72rem;
+	height: 0.72rem;
+	background: #957732;
+	border-radius: 100%;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.72rem;
+	text-align: center;
+	color: #FFFFFF;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.map_content .map_desc p:nth-child(5):before {
+	display: inline-block;
+	content: 'p';
+	width: 0.72rem;
+	height: 0.72rem;
+	background: #C5C4E0;
+	border-radius: 100%;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.72rem;
+	text-align: center;
+	color: #FFFFFF;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.map_content .map_desc img{
+	margin-top: 2rem;
+}

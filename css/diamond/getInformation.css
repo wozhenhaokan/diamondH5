@@ -1,0 +1,106 @@
+/*  */
+.content .banner{
+	background-image: url("../../image/diamond/banner.png");
+	width: 7.92rem;
+	height: 5.52rem;
+	background-size: contain;
+	text-align: center;
+	margin-top: 1.2rem;
+}
+.content .banner p{
+	padding-top: 0.906666rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	color: #FDFAF5;
+}
+.content .banner span{
+	margin-top: 0.64rem;
+	display: inline-block;
+	width: 3.6rem;
+	height: 1.253333rem;
+	line-height: 1.253333rem;
+	background: #FFFFFF;
+	border: 1px solid #957732;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*  */
+.content .menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.content .menu>div>a{
+	width: 2.506666rem;
+	height: 1.946666rem;
+	border: 0.02rem solid #957732;
+	box-sizing: border-box;
+	border-radius: 0.133333rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+.content .menu .active{
+	background: #C5C4E0;
+	border: none;
+}
+.content .menu>div>a p{
+	margin:auto;
+	font-size: 0.32rem;
+	line-height: 159.85%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #957732;
+}
+/*  */
+.content .sologn{
+	/* margin: 0 auto 0; */
+	font-size: 0.8rem;
+	line-height: 159.85%;
+	text-transform: uppercase;
+	color: #957732;
+}
+/*  */
+.content .first_p,.content .second_p{
+	font-size: 0.373333rem;
+	line-height: 0.56rem;
+	color: #494949;
+}
+.content .first_p{
+	padding-top: 1.44rem;
+	border-top: 0.013333rem solid #494949;
+	margin-top: 1.12rem;
+	margin-bottom: 0.826666rem;
+}
+.content .second_p{
+	margin-top: 1.173333rem;
+	margin-bottom: 1.466666rem;
+}
+.icon_content{
+	display: flex;
+	justify-content: space-between;
+}
+.icon_content a{
+	display: flex;
+	align-items: center;
+}
+.icon_content img{
+	object-fit: contain;
+}
+.icon_content .phone_img{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+.icon_content .skype_img{
+	width: 2.32rem;
+	height: 1.066666rem;
+	margin-top: 1.76rem;
+}
+.icon_content .qrcode_img{
+	width: 3.92rem;
+	height: 3.92rem;
+}

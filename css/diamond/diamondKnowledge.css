@@ -1,0 +1,127 @@
+/*  */
+.content .banner{
+	background-image: url("../../image/diamond/banner.png");
+	width: 7.92rem;
+	height: 5.52rem;
+	background-size: contain;
+	text-align: center;
+	margin-top: 1.2rem;
+}
+.content .banner p{
+	padding-top: 0.906666rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	color: #FDFAF5;
+}
+.content .banner span{
+	margin-top: 0.64rem;
+	display: inline-block;
+	width: 3.6rem;
+	height: 1.253333rem;
+	line-height: 1.253333rem;
+	background: #FFFFFF;
+	border: 1px solid #957732;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*  */
+.content .menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.content .menu>div>a{
+	width: 2.506666rem;
+	height: 1.946666rem;
+	border: 0.02rem solid #957732;
+	box-sizing: border-box;
+	border-radius: 0.133333rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+.content .menu .active{
+	background: #C5C4E0;
+	border: none;
+}
+.content .menu>div>a p{
+	margin:auto;
+	font-size: 0.32rem;
+	line-height: 159.85%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #957732;
+}
+/*  */
+.content .select{
+	margin-top: 1.12rem;
+	padding-top: 1.6rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	border-top: 0.013333rem solid #494949;
+	color: #957732;
+	margin-bottom: 1.173333rem;
+}
+.content .select label{
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	letter-spacing: 0.15em;
+	color: #957732;
+}
+.content .select select{
+	background-color: inherit;
+	border: none;
+	font-size: 0.533333rem;
+	line-height: 159.85%;
+	letter-spacing: 0.03em;
+	color: #494949;
+}
+/*  */
+.content .sologn{
+	margin: 1.6rem auto 0.853333rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: left;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #957732;
+}
+/*  */
+.content .pic{
+	margin: 0 auto;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.content .pic li{
+	width: 7.92rem;
+	height: 7.946666rem;
+	margin-bottom: 24px;
+	font-size: 14px;
+	line-height: 196.5%;
+	letter-spacing: 0.15em;
+	display: flex;
+	flex-direction: column;
+}
+.content .pic li img{
+	width: 7.92rem;
+	height: 7.946666rem;
+}
+.content .pic li span{
+	display: inline-block;
+	margin-top: 0.586666rem;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 11px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #494949;
+	line-height: 150%;
+}

@@ -1,0 +1,113 @@
+/*  */
+.content .banner {
+	background-image: url("../../image/ourStory/banner.png");
+	width: 100%;
+	height: 3.413333rem;
+	line-height: 3.413333rem;
+	background-size: contain;
+	text-align: center;
+	margin-top: 1.2rem;
+}
+
+.content .banner p {
+	font-size: 0.586666rem;
+	text-align: center;
+	color: #FDFAF5;
+}
+
+/*  */
+.content .menu {
+	width: 100%;
+	margin-top: 0.266666rem;
+}
+
+.content .menu>div {
+	margin-top: 0.266666rem;
+	height: 1.44rem;
+	line-height: 1.44rem;
+	border: 0.02rem solid #957732;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 0.293333rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #957732;
+}
+
+.content .menu .active {
+	background: #957732;
+	border: none;
+	color: #fff;
+}
+
+
+
+/*  */
+.content .select{
+	margin-top: 1.386666rem;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #957732;
+	margin-bottom: 1.68rem;
+	display: flex;
+	align-items: center;
+}
+.content .select label{
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	letter-spacing: 0.15em;
+	color: #957732;
+}
+.content .select select{
+	background-color: inherit;
+	border: none;
+	font-size: 0.533333rem;
+	line-height: 159.85%;
+	letter-spacing: 0.03em;
+	color: #494949;
+}
+/*  */
+.content .detali {
+	margin-top: 1.76rem;
+}
+.content .detali .right_content .pic_content li {
+	width: 7.92rem;
+	height: 7.92rem;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.48rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #957732;
+	margin-bottom: 0.293333rem;
+	display: flex;
+}
+.content .detali .right_content .pic_content li span{
+	width: 5.653333rem;
+	margin: auto;
+}
+.content .detali .right_content .pic_content li:nth-child(odd) {
+	color: #fff;
+	background: #C5C4E0;
+}
+
+.content .detali .right_content .pic_content li:nth-child(even) {
+	background: rgba(149, 119, 50, 0.1);
+}
+.content .detali .right_content>span{
+	width: 3.626666rem;
+	height: 1.146666rem;
+	text-align: center;
+	background: #957732;
+	border-radius: 10px;
+	font-size: 0.293333rem;
+	line-height: 1.146666rem;
+	color: #FDFAF5;
+	margin: 1.013333rem auto 0;
+	display: block;
+	cursor: pointer;
+}

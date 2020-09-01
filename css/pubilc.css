@@ -1,0 +1,235 @@
+/* 清除默认样式 */
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: "Benton Sans", "微软雅黑";
+	background-color: #FDFAF5;
+	width: 10rem;
+}
+
+a {
+	text-decoration: none
+}
+
+*:focus {
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+input {
+	border: none;
+	border-bottom: 0.02rem solid #494949;
+	background-color: #FDFAF5;
+	padding: 0.4rem 0;
+}
+
+em {
+	font-style: normal
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+p {
+	word-wrap: break-word
+}
+
+/* 公共样式 */
+.wrapper {
+	width: 10rem;
+	padding: 0 1.013333rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/* 头部样式 */
+.header {
+	height: 1.12rem;
+	position: relative;
+	padding: 1.04rem 1.013333rem;
+	box-sizing: border-box;
+}
+
+.header>div:first-child {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header>div:first-child .logo {
+	flex-grow: 1;
+}
+
+.header>div:first-child .logo img {
+	width: 2.826666rem;
+	height: 1.12rem;
+	object-fit: contain;
+}
+
+.header>div:first-child .shoppingCar img {
+	width: 0.613333rem;
+	height: 0.586666rem;
+	object-fit: contain;
+}
+
+.header>div:first-child .menu img {
+	margin-left: 0.826666rem;
+	width: 0.746666rem;
+	height: 0.426666rem;
+	object-fit: contain;
+}
+
+.header .menuContent {
+	background-color: #FDFAF5;
+	border-top: 0.013333rem solid #494949;
+	padding: 1.413333rem 0 1.2rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 3.52rem;
+	left: 0;
+	width: 10rem;
+}
+
+.header .menuContent a {
+	font-size: 0.373333rem;
+	line-height: 0.4rem;
+	text-align: center;
+	margin-bottom: 1.226666rem;
+	color: #000000;
+}
+
+.header .menuContent .line {
+	width: 4.213333rem;
+	height: 1px;
+	background-color: #494949;
+	margin-bottom: 1.226666rem;
+}
+
+.header .menuContent>div {
+	width: 3.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .menuContent>div>img {
+	width: 0.666666rem;
+	height: 0.693333rem;
+	object-fit: contain;
+}
+
+/* 底部样式 */
+.footer {
+	padding: 1.786666rem 0;
+	width: 7.84rem;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.footer>img {
+	width: 3.306666rem;
+	height: 1.28rem;
+	margin-bottom: 0.88rem;
+}
+
+.footer>p {
+	font-size: 0.293333rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #494949;
+}
+
+.footer .footer_nav {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.footer .footer_nav img {
+	width: 1.173333rem;
+	height: 1.173333rem;
+	object-fit: contain;
+	margin-bottom: 0.426666rem;
+	margin-top: 1.786666rem;
+}
+
+.footer .footer_nav b {
+	display: block;
+	border-bottom: 0.013333rem solid #494949;
+	;
+	font-family: Operetta 12;
+	font-weight: bold;
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	color: #494949;
+	padding-bottom: 0.373333rem;
+}
+
+.footer .footer_nav a {
+	display: inline-block;
+	width: 49%;
+	font-size: 0.293333rem;
+	line-height: 141.5%;
+	color: #494949;
+	margin-top: 0.613333rem;
+}
+
+.footer .share {
+	text-align: left;
+	margin-top: 1.786666rem;
+}
+
+.footer .share img {
+	width: 0.64rem;
+	height: 0.64rem;
+	object-fit: contain;
+}
+
+.footer .share img:first-child {
+	margin-right: 1.12rem;
+}

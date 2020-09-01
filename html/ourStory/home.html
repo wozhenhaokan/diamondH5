@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title></title>
+	<script src="../../util/flexible/flexible_css.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../util/flexible/flexible.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="../../css/pubilc.css">
+  <link rel="stylesheet" href="../../util/swiper/css/swiper.css">
+  <link rel="stylesheet" href="../../css/ourStory/home.css">
+</head>
+
+<body>
+	<header class="header">
+		<div>
+			<a href="" class="logo">
+				<img src="../../image/header/logo.png" alt="">
+			</a>
+			<a href="" class="shoppingCar">
+				<img src="../../image/header/shoppingCar.png" alt="">
+			</a>
+			<a href="javascript:;" class="menu">
+				<img src="../../image/header/menu.png" alt="">
+				<img src="../../image/header/return.png" style="display: none;" alt="">
+			</a>
+		</div>
+		<div style="display: none;" class="menuContent">
+			<a href="../diamond/home.html">Diamond</a>
+			<a href="">ENGAGEMENT RINGS</a>
+			<a href="../jewellery/home.html">JEWELLERY</a>
+			<span class="line"></span>
+			<a href="../ourStory/home.html">OUR STORY</a>
+			<a href="../contactUs/home.html">CONTACT US</a>
+			<a href="../myAccount/home.html">MY ACCOUNT</a>
+			<div id="">
+				<img src="../../image/footer/ins.png" alt="">
+				<img src="../../image/footer/facebook.png" alt="">
+				<img src="../../image/header/heart.png" alt="">
+			</div>
+		</div>
+	</header>
+  <div class="wrapper">
+    <div class="content">
+			<!-- banner图 -->
+			<div class="banner">
+				<p>OUR STORY</p>
+			</div>
+			<!--  -->
+			<div class="menu">
+				<div class="active">INSPIRATION</div>
+				<div>LUMIA</div>
+			</div>
+			<!--  -->
+			<div class="select">
+				<label>TOPICS:</label>
+				<select>
+					<option value="1">Brand story</option>
+					<option value="2">WORLD DIAMOND</option>
+					<option value="3">CHINESE IN ANTWERP</option>
+					<option value="4">DIAMOND RELATED</option>
+					<option value="5">LUMIA DIAMOND</option>
+				</select>
+			</div>
+			<!--  -->
+			<div class="detali">
+				<div class="right_content">
+					<ul class="pic_content">
+						<li><span>“THE PAST FIVE YEARS - I AND CHINA”:” CHINESE DREAM” IN THE BELGIAN DIAMOND EXCHANGE</span></li>
+						<li><span>LUMIA KINGDOM DIAMOND COMPANY REGISTRATION CERTIFICATE, DIAMOND STOCK EXCHANGE MEMBERSHIP QUALIFICATION AND BELGIAN MINISTRY OF FINANCE’S BUSINESS TAX CERTIFICATE</span></li>
+						<li><span>LUMIA’S ADVANTAGE</span></li>
+						<li><span>ANTWERP CUT, STANDARD DIAMOND CUTTING PROCESS</span></li>
+						<!-- <li><span>WHY IS ANTWERP THE DIAMOND CAPITAL OF THE WORLD?</span></li> -->
+						<!-- <li><span>MEMBER QUALIFICATION OF ANTWERP DIAMOND EXCHANGE</span></li> -->
+						<!-- <li><span>INTO THE WORLD DIAMOND CAPITAL ANTWERP, BELGIUM WHEN THE TRADITIONAL INDUSTRY ENCOUNTERS A NEW ERA</span></li> -->
+						<!-- <li><span>ANCIENT “DIAMOND CAPITAL” TARGETS CHINA’S EMERGING MARKETS</span></li> -->
+						<!-- <li><span>INTO THE DIAMOND STREET OF ANTWERP-REPORTED BY GUANG JUN DAILY REPORTER LIU JUN</span></li> -->
+					</ul>
+					<span>LOAD MORE</span>
+				</div>
+			</div>
+    </div>
+    
+  </div>
+	<footer class="footer">
+		<img src="../../image/header/logo.png" alt="">
+		<p>Hoveniersstraat 35, office 313-315, 2019 Antwerpen</br> — e. info@lumiagem.com — t. +32 689 73 94</p>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic1.png" alt="">
+			<b>Information</b>
+			<div>
+				<a href="">About us</a>
+				<a href="">Contact us</a>
+				<a href="">Terms & conditions</a>
+				<a href="">Returns & exchanges</a>
+				<a href="">Shipping & delivery</a>
+				<a href="">Privacy policy</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic2.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Store location</a>
+				<a href="">My account</a>
+				<a href="">Orders tracking</a>
+				<a href="">Size guide</a>
+				<a href="">FAQs</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic3.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Account</a>
+				<a href="">Free shipping</a>
+				<a href="">Support 24/7</a>
+				<a href="">30 days product returns</a>
+				<a href="">100% payment secure</a>
+				<a href="">Supported all cards</a>
+			</div>
+		</div>
+		<div class="share">
+		  <img src="../../image/footer/ins.png" alt="">
+		  <img src="../../image/footer/facebook.png" alt="">
+		</div>
+	</footer>
+</body>
+<script src="../../util/swiper/js/swiper.min.js"></script>
+<script src="../../util/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function () {
+		
+		$('.menu').on('click','div',function () {
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+		$('.select select').change(function() {
+			window.location.href = 'detail_'+$(this).val() + '.html'
+		})
+	})
+</script>
+
+</html>

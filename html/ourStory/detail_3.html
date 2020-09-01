@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title></title>
+	<script src="../../util/flexible/flexible_css.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../util/flexible/flexible.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="../../css/pubilc.css">
+  <link rel="stylesheet" href="../../util/swiper/css/swiper.css">
+  <link rel="stylesheet" href="../../css/ourStory/detail_3.css">
+</head>
+
+<body>
+	<header class="header">
+		<div>
+			<a href="" class="logo">
+				<img src="../../image/header/logo.png" alt="">
+			</a>
+			<a href="" class="shoppingCar">
+				<img src="../../image/header/shoppingCar.png" alt="">
+			</a>
+			<a href="javascript:;" class="menu">
+				<img src="../../image/header/menu.png" alt="">
+				<img src="../../image/header/return.png" style="display: none;" alt="">
+			</a>
+		</div>
+		<div style="display: none;" class="menuContent">
+			<a href="../diamond/home.html">Diamond</a>
+			<a href="">ENGAGEMENT RINGS</a>
+			<a href="../jewellery/home.html">JEWELLERY</a>
+			<span class="line"></span>
+			<a href="../ourStory/home.html">OUR STORY</a>
+			<a href="../contactUs/home.html">CONTACT US</a>
+			<a href="../myAccount/home.html">MY ACCOUNT</a>
+			<div id="">
+				<img src="../../image/footer/ins.png" alt="">
+				<img src="../../image/footer/facebook.png" alt="">
+				<img src="../../image/header/heart.png" alt="">
+			</div>
+		</div>
+	</header>
+  <div class="wrapper">
+    <div class="content">
+			<!-- banner图 -->
+			<div class="banner">
+				<p>OUR STORY</p>
+			</div>
+			<!--  -->
+			<div class="menu">
+				<div class="active">INSPIRATION</div>
+				<div>LUMIA</div>
+			</div>
+			<div class="select">
+				<label>TOPICS:</label>
+				<select>
+					<option value="1">Brand story</option>
+					<option value="2">WORLD DIAMOND</option>
+					<option value="3">CHINESE IN ANTWERP</option>
+					<option value="4">DIAMOND RELATED</option>
+					<option value="5">LUMIA DIAMOND</option>
+				</select>
+			</div>
+			<!--  -->
+			<div class="detali">
+				<div class="right_content">
+					<p class="text_normal_color">As the source of 80-90% diamonds in the world, the Antwerp Diamond Exchange is your ideal platform for buying diamonds. As a diamond purchase channel for Chinese people, Limei Diamond will provide professional services for your choice.</p>
+					<p class="text_normal"><b>Becoming a member of the Diamond Exchange is a demonstration of the professional strength of practitioners.</b> To apply for membership in the Antwerp Diamond Exchange, practitioners need not only professional qualifications and related qualifications, but also financial guarantees and peer recommendation letters-including the recommendation of the founders' professional capabilities and reputation by seven large diamond trading companies. In addition, the applicant must have a good historical transaction record, and must not have negative comments from other members of the Diamond Exchange.</p>
+					<p class="text_normal">As a member of the Diamond Exchange, if there is any payment in arrears, the sale of fakes or the sale of undeclared synthetic diamonds, you will lose the right to trade in any other diamond exchange center in the World WFDB Diamond Union for life. In other words, if you violate the reputation for the sake of the moment, you will be permanently removed from the industry.</p>
+					<img src="../../image/ourStory/detail_4.png" >
+					<p class="text_normal">As a traditional industry in Antwerp, the diamond industry has long been dominated by Jews and Indians. Chinese entrepreneurs enter the local diamond exchange not only by solid professional knowledge, but also by virtue of integrity and good business sense.</p>
+					<p class="text_normal">In the three years since its establishment, BELGEM has established friendly cooperative relations with its counterparts from different cultural backgrounds in the Shenzhen Stock Exchange, which not only has a solid industry reputation, but also opens up a wide range of sources for its customers. The members of the Diamond Exchange implement resource sharing through an internal network platform, and the source of a member company is the source of all other member companies.</p>
+				</div>
+			</div>
+    </div>
+    
+  </div>
+	<footer class="footer">
+		<img src="../../image/header/logo.png" alt="">
+		<p>Hoveniersstraat 35, office 313-315, 2019 Antwerpen</br> — e. info@lumiagem.com — t. +32 689 73 94</p>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic1.png" alt="">
+			<b>Information</b>
+			<div>
+				<a href="">About us</a>
+				<a href="">Contact us</a>
+				<a href="">Terms & conditions</a>
+				<a href="">Returns & exchanges</a>
+				<a href="">Shipping & delivery</a>
+				<a href="">Privacy policy</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic2.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Store location</a>
+				<a href="">My account</a>
+				<a href="">Orders tracking</a>
+				<a href="">Size guide</a>
+				<a href="">FAQs</a>
+			</div>
+		</div>
+		<div class="footer_nav">
+			<img src="../../image/footer/pic3.png" alt="">
+			<b>Information</b>
+			<div id="">
+				<a href="">Account</a>
+				<a href="">Free shipping</a>
+				<a href="">Support 24/7</a>
+				<a href="">30 days product returns</a>
+				<a href="">100% payment secure</a>
+				<a href="">Supported all cards</a>
+			</div>
+		</div>
+		<div class="share">
+		  <img src="../../image/footer/ins.png" alt="">
+		  <img src="../../image/footer/facebook.png" alt="">
+		</div>
+	</footer>
+</body>
+<script src="../../util/swiper/js/swiper.min.js"></script>
+<script src="../../util/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function () {
+		$('.menu').on('click','div',function () {
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+		$('.select select').change(function() {
+			window.location.href = 'detail_'+$(this).val() + '.html'
+		})
+	})
+</script>
+
+</html>

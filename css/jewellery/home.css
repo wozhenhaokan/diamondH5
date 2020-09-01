@@ -1,0 +1,249 @@
+
+.content .title{
+	font-family: Operetta 12;
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	text-align: center;
+	color: #957732;
+	padding-top: 0.96rem;
+	position: relative;
+	padding-bottom: 0.96rem;
+}
+/*  */
+.content .menu{
+	display: flex;
+	padding: 0.56rem 0;
+	margin-bottom: 1.706666rem;
+	position: relative;
+	flex-wrap: wrap;
+}
+.content .menu:before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0.026666rem;
+	width: 100%;
+	background: #8B8B8B;
+	transform: scaleY(0.25);
+}
+.content .menu:after {
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 0.026666rem;
+	width: 100%;
+	background: #8B8B8B;
+	transform: scaleY(0.25);
+}
+.content .menu span:first-child{
+	margin-bottom: 0.8rem;
+}
+.content .menu span{
+	margin-right: 0.8rem;
+	font-weight: bold;
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #957732;
+}
+/*  */
+.content .products{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content .products li{
+	width: 3.813333rem;
+	height: 3.786666rem;
+	position: relative;
+	display: flex;
+	text-align: center;
+	margin-bottom: 0.293333rem;
+	background-color: #fff;
+}
+.content .products li a{
+	margin: 0 auto;
+}
+.content .products li:nth-child(3){
+	width: 100%;
+}
+.content .products li:nth-child(6){
+	padding: 1.306666rem 0;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(149, 119, 50, 0.1);
+}
+.content .products li:nth-child(6) p:first-child{
+	font-size: 0.586666rem;
+	line-height: 159.85%;
+	/* identical to box height, or 48px */
+	
+	text-align: center;
+	
+	color: #957732;
+}
+.content .products li:nth-child(6) p:last-child{
+	width:6.133333rem;
+	margin: 0 auto;
+	margin-top: 0.346666rem;
+	font-size: 0.32rem;
+	line-height: 164.5%;
+	/* or 20px */
+	
+	text-align: center;
+	color: #494949;
+}
+.content .products li img:first-child{
+	position: absolute;
+	top: 0.373333rem;
+	left: 0.373333rem;
+	cursor: pointer;
+}
+.content .products li img:last-child{
+	width: 3.813333rem;
+	height: 3.786666rem;
+	object-fit: contain;
+}
+/* 弹框 */
+.detail_dialog {
+	z-index: 9999;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(73, 73, 73, 0.4);
+}
+
+.detail_dialog_content {
+	padding: 1.066666rem;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	width: 8.96rem;
+	height: 100%;
+	background: #FFFFFF;
+}
+
+.detail_dialog_content .close {
+	font-size: 0.533333rem;
+	position: absolute;
+	top: 0.533333rem;
+	left: 0.533333rem;
+	cursor: pointer;
+	color: #957732;
+}
+
+.detail_dialog_content .product_img {
+	width: 5.12rem;
+	margin: 0 auto;
+	align-self: center;
+	position: relative;
+}
+
+.detail_dialog_content .product_img .swiper-slide img {
+	width: 5.12rem;
+	height: 5.12rem;
+	object-fit: contain;
+}
+
+.detail_dialog_content .detail_title {
+	font-size: 0.666666rem;
+	line-height: 159.85%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #957732;
+	padding-bottom: 0.533333rem;
+	position: relative;
+	align-self: center;
+	margin-bottom: 1.333333rem;
+}
+
+.detail_dialog_content .detail_title img {
+	position: absolute;
+	width: 0.426666rem;
+	height: 0.4rem;
+	right: 0;
+	top: 0.426666rem;
+}
+
+.detail_dialog_content .detail_title:after {
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0.026666rem;
+	background: #898989;
+	transform: scaleY(0.25);
+}
+
+.detail_dialog_content .select_wrap {
+	align-self: center;
+}
+
+.detail_dialog_content .select_bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.detail_dialog_content .select_wrap .selectdiamond {
+
+	width: 6.96rem;
+	height: 1.52rem;
+	background: #957732;
+	border-radius: 10px;
+	font-size: 0.293333rem;
+	line-height: 1.52rem;
+	margin-top: 0.88rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #FDFAF5;
+
+}
+
+.detail_dialog_content .select label {
+	font-size: 0.586666rem;
+	letter-spacing: 0.15em;
+	color: #494949;
+}
+
+.detail_dialog_content .select select {
+	background-color: inherit;
+	border: none;
+	font-size: 0.533333rem;
+	height: 0.8rem;
+	line-height: 159.85%;
+	letter-spacing: 0.03em;
+	color: #494949;
+}
+
+.detail_dialog_content .material .select {
+	margin-bottom: 44px;
+}
+
+.detail_dialog_content .material .select label,
+.detail_dialog_content .sizes .select label {
+	font-size: 0.24rem;
+	line-height: 11px;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	color: #957732;
+}
+
+.detail_dialog_content .sizes a {
+	font-size: 0.24rem;
+	line-height: 0.293333rem;
+	/* identical to box height */
+	display: block;
+	text-align: left;
+	text-decoration-line: underline;
+	color: #957732;
+	margin: 0.293333rem 0 1.28rem;
+}
