@@ -4,7 +4,7 @@
 
 .content .title {
 	width: 7.946666rem;
-	font-family: Operetta 12;
+	font-family: "operetta-12",serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 0.586666rem;
@@ -56,7 +56,7 @@
 .content .menu>div img {
 	width: 1.013333rem;
 	height: 0.72rem;
-	object-fit: scale-down;
+	object-fit: contain;
 }
 
 .content .menu>div p {
@@ -72,6 +72,7 @@
 .content .sologn {
 	margin: 2.16rem auto 1.066666rem;
 	font-size: 0.586666rem;
+	font-family: "operetta-12",serif;
 	line-height: 159.85%;
 	text-align: center;
 	letter-spacing: 0.05em;
@@ -147,7 +148,7 @@
 	font-size: 0.586666rem;
 	line-height: 159.85%;
 	/* or 48px */
-	font-family: Operetta 12;
+	font-family: "operetta-12",serif;
 	letter-spacing: 0.03em;
 	color: #957732;
 }

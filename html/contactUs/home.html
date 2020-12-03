@@ -7,6 +7,7 @@
   <title></title>
 	<script src="../../util/flexible/flexible_css.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../../util/flexible/flexible.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/jtn0ulo.css">
   <link rel="stylesheet" href="../../css/pubilc.css">
   <link rel="stylesheet" href="../../util/swiper/css/swiper.css">
   <link rel="stylesheet" href="../../css/contactUs/home.css">
@@ -15,10 +16,10 @@
 <body>
 	<header class="header">
 		<div>
-			<a href="" class="logo">
+			<a href="../homePage/home.html" class="logo">
 				<img src="../../image/header/logo.png" alt="">
 			</a>
-			<a href="" class="shoppingCar">
+			<a href="../shoppingCar/home.html" class="shoppingCar">
 				<img src="../../image/header/shoppingCar.png" alt="">
 			</a>
 			<a href="javascript:;" class="menu">
@@ -27,7 +28,7 @@
 			</a>
 		</div>
 		<div style="display: none;" class="menuContent">
-			<a href="../diamond/home.html">Diamond</a>
+			<a href="../diamond/selectDiamond.html">Diamond</a>
 			<a href="">ENGAGEMENT RINGS</a>
 			<a href="../jewellery/home.html">JEWELLERY</a>
 			<span class="line"></span>
@@ -137,6 +138,7 @@
 	</footer>
 </body>
 <script src="../../util/swiper/js/swiper.min.js"></script>
+<script src="../../util/Page/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
   var swiper = new Swiper('.swiper-container1', {
     slidesPerView: 3,
@@ -157,6 +159,13 @@
       prevEl: '.swiper-button-prev2',
     },
   });
+	$(function() {
+		$('.header .menu').click(() => {
+			$('.menuContent').toggle()
+			$('.menu img:eq(0)').toggle()
+			$('.menu img:eq(1)').toggle()
+		})
+	})
 </script>
 
 </html>

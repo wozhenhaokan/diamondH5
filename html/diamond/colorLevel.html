@@ -14,10 +14,10 @@
 	<body>
 		<header class="header">
 			<div>
-				<a href="" class="logo">
+				<a href="../homePage/home.html" class="logo">
 					<img src="../../image/header/logo.png" alt="">
 				</a>
-				<a href="" class="shoppingCar">
+				<a href="../shoppingCar/home.html" class="shoppingCar">
 					<img src="../../image/header/shoppingCar.png" alt="">
 				</a>
 				<a href="javascript:;" class="menu">
@@ -26,7 +26,7 @@
 				</a>
 			</div>
 			<div style="display: none;" class="menuContent">
-				<a href="../diamond/home.html">Diamond</a>
+				<a href="../diamond/selectDiamond.html">Diamond</a>
 				<a href="">ENGAGEMENT RINGS</a>
 				<a href="../jewellery/home.html">JEWELLERY</a>
 				<span class="line"></span>
@@ -176,6 +176,11 @@
 		})
 		$('.select select').change(function() {
 			window.location.href = $(this).val() + '.html'
+		})
+		$('.header .menu').click(() => {
+			$('.menuContent').toggle()
+			$('.menu img:eq(0)').toggle()
+			$('.menu img:eq(1)').toggle()
 		})
 	</script>
 

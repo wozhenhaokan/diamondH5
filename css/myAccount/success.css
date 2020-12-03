@@ -11,7 +11,7 @@
 .content p:nth-of-type(1){
 	margin-top: 0.666666rem;
 	margin-bottom: 0.8rem;
-	font-family: Operetta 12;
+	font-family: "operetta-12",serif;
 	font-size: 0.586666rem;
 	line-height: 159.85%;
 	text-align: center;

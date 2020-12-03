@@ -22,7 +22,35 @@ select {
 	margin: 0;
 	padding: 0
 }
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * operetta-12:
+ *   - http://typekit.com/eulas/00000000000000003b9b3617
+ *   - http://typekit.com/eulas/00000000000000003b9b361a
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-06-25 11:36:54 UTC"}*/
 
+@import url("https://p.typekit.net/p.css?s=1&k=jtn0ulo&ht=tk&f=42989.42992&a=6896484&app=typekit&e=css");
+
+@font-face {
+font-family:"operetta-12";
+src:url("https://use.typekit.net/af/ab0081/00000000000000003b9b3617/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/ab0081/00000000000000003b9b3617/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/ab0081/00000000000000003b9b3617/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"operetta-12";
+src:url("https://use.typekit.net/af/647b03/00000000000000003b9b361a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/647b03/00000000000000003b9b361a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/647b03/00000000000000003b9b361a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+.tk-operetta-12 { font-family: "operetta-12",serif; }
 body {
 	font-family: "Benton Sans", "微软雅黑";
 	background-color: #FDFAF5;
@@ -82,7 +110,80 @@ p {
 	box-sizing: border-box;
 	overflow: hidden;
 }
+/* 弹窗提示 */
+.tool_tip {
+	/* width: 210px; */
+	/* height: 103px; */
+	padding: 0.853333rem 0.746666rem;
+	background: #A68946;
+	border: 2px solid #957732;
+	position: absolute;
+	z-index: 999999;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-image: url(../image/common/tips.png);
+	background-position: 0.853333rem 1.066666rem;
+	background-repeat: no-repeat;
+	transform: translateY(-100%);
+}
+.tool_tip .tool_tip_p{
+	display: block;
+	width: 6.026666rem;
+	/* height: 23px; */
+	font-family: Benton Sans;
+	font-size: 0.24rem;
+	line-height: 148%;
+	text-align: left;
+	color: #FFFFFF;
+	padding-left: 1.466666rem;
+}
+.tool_tip .tool_tip_b{
+	cursor: pointer;
+	display: block;
+	width: 6.026666rem;
+	padding-left: 1.546666rem;
+	text-align: left;
+	text-decoration-line: underline;
+	/* height: 12px; */
+	font-family: Benton Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.213333rem;
+	letter-spacing: 0.15em;
+	color: #FFFFFF;
+}
+.tool_tip_opacity{
+	background-color: #A68946;
+}
+.tool_tip_top{
+	position: absolute;
+	top: -0.666666rem;
+	left: 50%;
+}
+.tool_tip_top:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.053333rem;
+	height: 0.56rem;
+	background-color: #957732;
+}
 
+.tool_tip_top:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	bottom: -0.56rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.266666rem;
+	height: 0.266666rem;
+	border-radius: 0.266666rem;
+	background: #957732;
+}
 /* 头部样式 */
 .header {
 	height: 1.12rem;
@@ -121,6 +222,7 @@ p {
 }
 
 .header .menuContent {
+	z-index: 9999;
 	background-color: #FDFAF5;
 	border-top: 0.013333rem solid #494949;
 	padding: 1.413333rem 0 1.2rem;
@@ -202,7 +304,7 @@ p {
 	display: block;
 	border-bottom: 0.013333rem solid #494949;
 	;
-	font-family: Operetta 12;
+	font-family: "operetta-12",serif;
 	font-weight: bold;
 	font-size: 0.32rem;
 	line-height: 164.5%;
